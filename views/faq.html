@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escudo Laboral - Preguntas Frecuentes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    </head>
+  </head>
+  <body>
+    <!-- Aquí se carga el header desde el archivo -->
+    <div id="header"></div>
+
+    <main class="container my-5">
+      <h2 class="text-center mb-4">Preguntas Frecuentes</h2>
+      <div class="accordion" id="accordionFaq">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+              aria-expanded="true"
+              aria-controls="faq1">
+              ¿Cuáles son los requisitos para el responsable del SG-SST?
+            </button>
+          </h2>
+          <div
+            id="faq1"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">
+              Dependiendo del tamaño y nivel de riesgo de la empresa, se
+              requiere un técnico, tecnólogo o profesional con licencia vigente
+              en SST y experiencia específica.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq2"
+              aria-expanded="false"
+              aria-controls="faq2">
+              ¿Es obligatorio implementar el SG-SST?
+            </button>
+          </h2>
+          <div
+            id="faq2"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFaq">
+            <div class="accordion-body">
+              Sí, todas las empresas con empleados contratados por más de 30
+              días deben cumplir con esta normativa.
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Aquí se carga el footer desde el archivo -->
+    <div id="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
