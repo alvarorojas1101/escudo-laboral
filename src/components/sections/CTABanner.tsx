@@ -13,12 +13,12 @@ export function CTABanner({
   buttonText = 'Habla con un asesor',
 }: CTABannerProps) {
   return (
-    <section className="bg-accent-light py-12 md:py-16">
+    <section className="bg-gradient-to-r from-primary to-primary-light py-10 md:py-14">
       <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
-        <h2 className="mb-3 text-2xl font-bold text-neutral-900 md:text-3xl">
+        <h2 className="mb-3 text-2xl font-bold text-white md:text-3xl">
           {title}
         </h2>
-        <p className="mb-6 text-neutral-700">{subtitle}</p>
+        <p className="mb-6 text-white/70">{subtitle}</p>
         <a
           href={BUSINESS.whatsappMessage}
           target="_blank"

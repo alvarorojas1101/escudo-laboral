@@ -7,7 +7,7 @@ import { BUSINESS } from '@/lib/constants'
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-light pt-24 pb-16 md:pt-32 md:pb-24">
+    <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-light pt-24 pb-12 md:pt-32 md:pb-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Text */}

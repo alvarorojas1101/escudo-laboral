@@ -18,7 +18,9 @@ export function HowItWorks() {
       </div>
       <div className="relative grid gap-8 md:grid-cols-4">
         {/* Connector line (desktop) */}
-        <div className="absolute top-12 right-0 left-0 hidden h-0.5 bg-gradient-to-r from-accent/0 via-accent/30 to-accent/0 md:block" />
+        <div className="absolute top-8 left-[calc(12.5%+2rem)] hidden h-0.5 w-[calc(75%-4rem)] md:block">
+          <div className="h-full w-full bg-gradient-to-r from-accent/40 via-accent/20 to-accent/40" />
+        </div>
         {STEPS.map((step, i) => (
           <motion.div
             key={step.number}

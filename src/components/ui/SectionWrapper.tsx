@@ -23,7 +23,7 @@ export function SectionWrapper({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-80px' }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
-      className={`py-16 md:py-24 ${alternate ? 'bg-neutral-100' : 'bg-neutral-50'} ${className}`}
+      className={`py-12 md:py-16 ${alternate ? 'bg-neutral-100' : 'bg-neutral-50'} ${className}`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">{children}</div>
     </motion.section>
