@@ -1,5 +1,10 @@
-# Node.js
+# Dependencies
 node_modules/
+.md
+
+# Next.js
+.next/
+out/
 
 # Logs
 npm-debug.log*
@@ -16,3 +21,7 @@ Thumbs.db
 .env.development
 .env.test
 .env.production
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
